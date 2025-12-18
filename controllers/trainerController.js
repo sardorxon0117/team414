@@ -4,4 +4,5 @@ const {getAllElements} = require("./commonController");
 const getAllTrainers = getAllElements("trainer");
 
 
+
 module.exports = {getAllTrainers};
