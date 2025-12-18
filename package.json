@@ -4,16 +4,25 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sardorxon0117/team414"
+    "url": "git+https://github.com/sardorxon0117/team414.git"
   },
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "nodemon": "^3.1.11",
     "pg": "^8.16.3"
   },
-  "private": true
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sardorxon0117/team414/issues"
+  },
+  "homepage": "https://github.com/sardorxon0117/team414#readme"
 }
