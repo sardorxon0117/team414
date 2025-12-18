@@ -16,5 +16,5 @@ app.use("/", paymentRoutes);
 app.use("/", tariffRoutes);
 
 app.listen(5000, () => {
-    console.log("server is running");
+    console.log(`server is running: https://localhost:5000`);
 });
