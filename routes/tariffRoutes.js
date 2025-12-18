@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-const {getAllTariffs} = require("../controllers/tariffController");
+const {getAllTariff} = require("../controllers/tariffController");
 
-router.get("/tariff", getAllTariffs);
+router.get("/tariffs", getAllTariff);
 
 module.exports = router;
